@@ -1,0 +1,75 @@
+# Database configuration file
+development:
+  adapter: jdbc
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/jrubystack_development
+  username: jrubystack
+  password: password
+
+test:
+  adapter: jdbc
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/jrubystack_development
+  username: jrubystack
+  password: password
+
+production:
+  adapter: jdbc
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/jrubystack_development
+  username: jrubystack
+  password: password
+
+#   # jdbcmysql adapter case 
+#   development:
+#     adapter: jdbcmysql
+#     database: jrubystack_development
+#     username: jrubystack
+#     password: password
+#     host: localhost
+#     socket: C:\Program Files\BitNami JRubyStack/mysql/tmp/mysql.sock
+#     port: 3306
+
+#   test:
+#     adapter: jdbcmysql
+#     database: jrubystack_test
+#     username: jrubystack
+#     password: password
+#     socket: C:\Program Files\BitNami JRubyStack/mysql/tmp/mysql.sock
+#     port: 3306
+
+#   production:
+#     adapter: jdbcmysql
+#     database: jrubystack_production
+#     username: jrubystack
+#     password: password
+#     socket: C:\Program Files\BitNami JRubyStack/mysql/tmp/mysql.sock
+#     port: 3306
+
+
+#   # mysql adapter case
+#   development:
+#     adapter: mysql
+#     database: jrubystack_development
+#     username: jrubystack
+#     password: password
+#     host: localhost
+#     socket: C:\Program Files\BitNami JRubyStack/mysql/tmp/mysql.sock
+#     port: 3306
+
+#   test:
+#     adapter: mysql
+#     database: jrubystack_test
+#     username: jrubystack
+#     password: password
+#     socket: C:\Program Files\BitNami JRubyStack/mysql/tmp/mysql.sock
+#     port: 3306
+
+#   production:
+#     adapter: mysql
+#     database: jrubystack_production
+#     username: jrubystack
+#     password: password
+#     socket: C:\Program Files\BitNami JRubyStack/mysql/tmp/mysql.sock
+#     port: 3306
+                    
